@@ -22,15 +22,17 @@ export function activate(context: vscode.ExtensionContext) {
 	);
 
 	let tokenize2css = vscode.commands.registerCommand(
-		"tokenizer.css",
+		"tokenizer.toCss",
 		() => {
 			const selected = vscode.Selection.toString();
+			vscode.window.showInformationMessage(selected);
 		}
 	);
 	let tokenize2js = vscode.commands.registerCommand(
-		"tokenizer.css",
+		"tokenizer.toJs",
 		() => {
 			const selected = vscode.Selection.toString();
+			vscode.window.showInformationMessage(selected);
 		}
 	);
 

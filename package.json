@@ -2,6 +2,7 @@
   "name": "tokenizer",
   "displayName": "tokenizer",
   "description": "transform figma tokens into arahi variables",
+  "license": "MIT",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.77.0"
@@ -16,6 +17,14 @@
       {
         "command": "tokenizer.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "tokenizer.toCss",
+        "title": "tokenizer toCss"
+      },
+      {
+        "command": "tokenizer.toJs",
+        "title": "tokenizer toJs"
       }
     ]
   },
