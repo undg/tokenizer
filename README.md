@@ -8,7 +8,12 @@ Transform tokens from format `font-weight: fontWeights.bodyRegular` into `font-w
 It is not published. To install it download an extension from release page.
 
 To install it:
-Command+shift+x to open extensions, then install tokenizer-0.0.1.vsix
+Command+shift+x to open extensions, then install [tokenizer-x.x.x.vsix](https://github.com/undg/tokenizer/releases/latest) 
 
 ![image](https://user-images.githubusercontent.com/5306983/232647904-395034da-8379-43da-8ab2-92f87dc7f41b.png)
 **Enjoy!**
+
+
+## todo
+
+* [ ] settings page with parameterized namespace
