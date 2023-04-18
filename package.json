@@ -1,6 +1,7 @@
 {
   "name": "tokenizer",
   "displayName": "tokenizer",
+  "publisher": "undg",
   "description": "transform figma tokens into arahi variables",
   "repository": "https://github.com/undg/tokenizer",
   "license": "MIT",
