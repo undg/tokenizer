@@ -2,18 +2,24 @@
 
 Adding two commands to you vscode `tokenizer toJs` and `tokenizer toCss` 
 
-Transform tokens from format `font-weight: fontWeights.bodyRegular` into `font-weight: var(--arahi-fontWeights-bodyRegular);` or `fontWeight: 'var(--arahi-fontWeights-bodyRegular)',`
+Transform tokens from format `font-weight: fontWeights.bodyRegular` into
+* css: `font-weight: var(--arahi-fontWeights-bodyRegular);`
+* js: `fontWeight: 'var(--arahi-fontWeights-bodyRegular)',`
 
 # Instalation
-It is not published. To install it download an extension from release page.
+ 
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-To install it:
-Command+shift+x to open extensions, then install [tokenizer-x.x.x.vsix](https://github.com/undg/tokenizer/releases/latest) 
+```
+ext install undg.tokenizer
+```
 
-![image](https://user-images.githubusercontent.com/5306983/232647904-395034da-8379-43da-8ab2-92f87dc7f41b.png)
+Alternatively download it from [github.com](https://github.com/undg/tokenizer/releases/latest) or [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=undg.tokenizer)
+
 **Enjoy!**
 
 
 ## todo
 
+* [x] publish on visualstudio marketplace
 * [ ] settings page with parameterized namespace
